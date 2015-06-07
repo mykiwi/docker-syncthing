@@ -26,5 +26,6 @@ Or docker-compose:
 		volumes:
 		- ./config:/home/syncthing/.config/syncthing
 		- ./data:/home/syncthing/data
+		restart: always
 
 Then access Syncthing Web UI at [http://localhost:8080/]()
